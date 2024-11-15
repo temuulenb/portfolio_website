@@ -1,0 +1,107 @@
+.intro-portfolio-image {
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px 0 50px 0;
+    border: 0.3em solid rgba(255, 255, 255, 0.75);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .particle {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .PROJECTSS {
+    font-size: 2.25rem;
+    margin-bottom: 25px;
+  }
+  .intro {
+    text-align: center;
+    background-color: #004EB6;
+    color: white;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .intro-container{
+    height: 100%;
+  }
+  
+  .intro-line {
+    width: 400px;
+    margin: 5px auto;
+    height: 4px;
+    background-color: white;
+    border: none;
+  }
+  
+  .intro-big-name {
+    margin: 20px;
+    font-size: 2.5rem !important;
+  }
+  
+  .intro-name{
+    color: #F36258;
+  }
+  
+  .intro-text {
+    margin: 20px;
+    font-size: 1.5rem !important;
+  }
+  
+  .main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: ivory;
+    text-align: center;
+  }
+  
+  /* Media query for Mobile */
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 980px) {
+    /* Styles */
+    .intro-portfolio-image {
+      height: 200px;
+    }
+  
+    .main-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      color: ivory;
+      text-align: center;
+      width: 80%;
+    }
+  
+    .particle {
+      width: 100vw;
+    }
+    .intro-container {
+      margin-top: 0;
+      text-align: center;
+    }
+    .intro-line {
+      width: 250px;
+    }
+  
+    .intro-big-name {
+      font-size: 28px !important;
+      margin: 5px !important;
+    }
+  
+    .intro-text {
+      font-size: 14px !important;
+    }
+  }
+  
+  /* Media query for Tablet */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+  }

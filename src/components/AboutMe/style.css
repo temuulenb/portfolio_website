@@ -1,0 +1,329 @@
+.about-me {
+    color: black;
+    background-color:#f5f5f5;
+    padding-bottom: 50px;
+  }
+  .header {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .ABOUT-ME {
+    font-size: 2.25rem;
+    margin-bottom: 25px;
+    color: #F36258;
+    margin-top: 50px;
+  }
+  .line {
+    width: 400px;
+    margin: 5px auto;
+    height: 4px;
+    background-color: #285172;
+    border: none;
+    display: none;
+  }
+  
+  .about-me-wrapper {
+    width: 70%;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .experience-and-education {
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .skill-icons{
+    width: 30%;
+  }
+  
+  .skills {
+    width: 50%;
+  }
+  .big-text {
+    margin: 20px 0px;
+    font-size: 1.25rem;
+    /* color: #004EB6; */
+    color: #F36258;
+  }
+  
+  .orange{
+    color: #F36258;
+  }
+  
+  .important-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 5px 0px;
+    line-height: 150%;
+  }
+  
+  .date {
+    color: grey;
+    font-size: .9rem;
+  }
+  .less-important-text {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: grey;
+  }
+  
+  .skill-photos {
+    width: 50%;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .skill-photo {
+    width: 25%;
+    height: 100%;
+    filter: drop-shadow(1px 1px 2px #222);
+    border-radius: 2px;
+    margin: 0 20px;
+  }
+  
+  .skill-photo:hover {
+    transform: scale(1.1) translateY(0.2rem);
+    -webkit-filter: drop-shadow(1.5px 1.5px 4px #222);
+    filter: drop-shadow(1.5px 1.5px 4px #222);
+  
+    transition: all 0.25s;
+  }
+  
+  .about-me-section{
+    width: 70%;
+  }
+  
+  .about-me-section>p{
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: lighter;
+  }
+  
+  .about-me-skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    margin-top: 40px;
+  }
+  
+  .about-me-skill{
+    margin-bottom: 16px;
+    font-size: 1rem;
+    line-height: 12px;
+    font-weight: 400;
+  }
+  
+  .about-me-image{
+    width: 30%;
+    height: 100%;
+    margin-left: 50px;
+  }
+  
+  .temuulen-image{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .about-me-skill-icons{
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-me-skill-icons-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .about-me-skill-icon{
+    width: 50%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    height: 230px;
+  }
+  
+  .hexagon {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    background: #F36258;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateZ(-30deg);
+  }
+  
+  .hexagon::before,
+  .hexagon::after {
+    content: "";
+    position: absolute;
+    border-left: 51px solid transparent;
+    border-right: 51px solid transparent;
+  }
+  
+  .hexagon::before {
+    bottom: 99%;
+    border-bottom: 30px solid #F36258;
+  }
+  
+  .hexagon::after {
+    top: 99%;
+    border-top: 30px solid #F36258;
+  }
+  
+  .about-me-skill-icon > h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 38px 0 10px 0;
+  }
+  
+  .about-me-skill-icon > p{
+    text-align: center;
+    line-height: 24px;
+  }
+  
+  /* Media query for Mobile */
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+    .header {
+      margin-top: 10px;
+      padding-top: 10px;
+    }
+  
+    .line {
+      background-color: red;
+    }
+  
+    .ABOUT-ME {
+      font-size: 32px;
+    }
+  
+    .big-text {
+      font-size: 20px;
+    }
+  
+    .important-text {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  
+    .date {
+      font-size: 12px;
+    }
+  
+    .less-important-text {
+      font-size: 12px;
+      margin-bottom: 30px;
+    }
+  
+    #skills-header {
+      margin-bottom: 10px;
+    }
+    .about-me-wrapper {
+      flex-direction: column;
+      text-align: center;
+      width: 100vw;
+      justify-content: center;
+    }
+  
+    .about-me-section{
+      width: 90%;
+      text-align: left;
+    }
+    .shijir-image{
+      display: none;
+    }
+    .about-me-skills{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      margin-top: 40px;
+    }
+  
+    .about-me-skill{
+      line-height: 24px;
+      text-align: left;
+    }
+    .ABOUT-ME{
+      font-size: 1.5rem;
+    }
+    .experience-and-education{
+      width: 90%;
+      flex-direction: column;
+    }
+    .experience,
+    .education,
+    .skills {
+      text-align: center;
+      align-self: center;
+      width: 90%;
+    }
+  
+    .experience > p, .education > p{
+      text-align: left;
+      align-self: flex-start;
+      font-size: 1.1rem;
+    }
+  
+    .skill-photos {
+      width: 80%;
+      margin-top: 10px;
+    }
+  
+    .skill-photo {
+      margin: 0 5px;
+    }
+  
+    .about-me-skill-icons{
+      flex-direction: column !important;
+      width: 90%;
+    }
+  
+    .about-me-skill-icons-row{
+      width: 100%;
+      height: 300px;
+    }
+  }
+  
+  /* Media query for Tablet */
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+    /* Styles */
+    .shijir-image, .about-me-image, .skill-icons{
+      display: none;
+    }
+  
+    .about-me-section{
+      width: 100%;
+    }
+  
+    .experience-and-education{
+      width: 100%;
+    }
+    .about-me-skill-icons{
+      display: flex;
+      flex-direction: column !important;
+    }
+  
+    .about-me-skill-icons-row{
+      width: 100%;
+    }
+  }
