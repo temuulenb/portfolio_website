@@ -16,7 +16,7 @@ const AboutMe = () => {
       <br></br>
       <div className="about-me-wrapper">
         <div className = 'about-me-section'>
-          <p>Hello, I'm Shijir. I'm a <span className = 'orange'>full stack developer</span> based in <span className = 'orange'>San Francisco</span>.</p>
+          <p>Hello, I'm Temuulen. I'm a <span className = 'orange'>full stack developer</span> based in <span className = 'orange'>Vancouver, British Columbia</span>.</p>
           <p>I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. Also, I love things that are built to work reliably, whilst at the same time charm its users with its <span className = 'orange'>aesthetic look</span> and <span className = 'orange'>ease of use</span>.</p>
           <p>Here are a few technologies I've been working with recently:</p>
 
