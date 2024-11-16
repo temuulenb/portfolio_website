@@ -22,11 +22,11 @@ const AboutMe = () => {
 
           <div className = 'about-me-skills'>
             <div className = 'about-me-skill skill-1'>
-              <p>▹ Typescript</p>
+              <p>▹ Typescript/Javascript</p>
             </div>
 
             <div className = 'about-me-skill skill-2'>
-              <p>▹ React/Redux</p>
+              <p>▹ React</p>
             </div>
 
             <div className = 'about-me-skill skill-3'>
@@ -38,11 +38,11 @@ const AboutMe = () => {
             </div>
 
             <div className = 'about-me-skill skill-5'>
-              <p>▹ Rails</p>
+              <p>▹ Firebase</p>
             </div>
 
             <div className = 'about-me-skill skill-6'>
-              <p>▹ Docker</p>
+              <p>▹ Figma</p>
             </div>
           </div>
         </div>
