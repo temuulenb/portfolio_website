@@ -27,7 +27,6 @@ const Contact = () => {
           from_name: name,      // Sender's name (mapped to {{from_name}})
           from_email: email,    // Sender's email (mapped to {{from_email}})
           message: message,     // The message content (mapped to {{message}})
-          to_name: "Support",   // The recipient's name (can be a fixed name like "Support" or dynamically set)
         },
         "3MWYQ_VuPA034szHj" // Your public key
       )
@@ -81,16 +80,16 @@ const Contact = () => {
             required
             placeholder="Name"
             type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
           <input
             className="contact-input"
             required
             placeholder="Email"
             type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
           <textarea
             className="contact-input"
