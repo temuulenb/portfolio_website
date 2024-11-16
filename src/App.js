@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
-
 import {Scroll, Element} from 'react-scroll';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import 'react-awesome-slider/dist/styles.css';
 import "animate.css"
 import Intro from "./components/Intro";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 const slider = (
   <AwesomeSlider animation="cubeAnimation">
@@ -16,11 +17,15 @@ const slider = (
     <div>
       <Intro/>
     </div>
-   
     <div>
       <AboutMe/>
     </div>
-    
+    <div>
+      <Projects/>
+    </div>
+    <div>
+      <Contact/>
+    </div>
   </AwesomeSlider>
 );
 
@@ -39,6 +44,14 @@ const App = () =>{
 
     <Element name="aboutMe" className="element">
       <AboutMe/>
+    </Element>
+
+    <Element name="projects" className="element">
+        <Projects />
+    </Element>
+
+    <Element name="contact" className="element">
+        <Contact />
     </Element>
 
   </div>
