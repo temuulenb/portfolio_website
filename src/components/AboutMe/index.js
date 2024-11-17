@@ -22,7 +22,11 @@ const AboutMe = () => {
 
           <div className = 'about-me-skills'>
             <div className = 'about-me-skill skill-1'>
-              <p>▹ Typescript/Javascript</p>
+              <p>▹ Typescript</p>
+            </div>
+
+            <div className = 'about-me-skill skill-1'>
+              <p>▹ Javascript</p>
             </div>
 
             <div className = 'about-me-skill skill-2'>
