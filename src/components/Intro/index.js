@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useCallback } from "react";
 import "./style.css";
 import Particles from "react-tsparticles";
 import * as Scroll from "react-scroll";
 import { ParallaxButton } from "react-parallax-button";
+import { loadSlim } from "tsparticles-slim";
 
 const Intro = () => {
   const scrollTo = (className) => {
@@ -14,12 +15,16 @@ const Intro = () => {
       smooth: "easeInOutQuart",
     });
   };
+  
+  const particleInit = useCallback(async (engine) => {
+    await loadSlim(engine);
+  }, [])
 
   return (
     <div className="intro">
       <div className="intro-container">
         {/* Particles */}
-        <Particles className="particle" options={particleOpt} />
+        <Particles className="particle" options={particleOpt} init={particleInit}/>
         <div className="main-content">
           <h1 className="intro-big-name">
             Hello, I'm <span className="intro-name">Temuulen</span>
@@ -158,3 +163,5 @@ const particleOpt = {
     },
   },
 };
+
+
