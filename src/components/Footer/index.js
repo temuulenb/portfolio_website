@@ -34,7 +34,7 @@ const Footer = () => {
           <FaLinkedin size={24}/>
         </a>
         <a className="footer-icon-container"
-        href="temuu1109@gmail.com"
+        href="mailto:temuu1109@gmail.com"
         target="_blank"
         rel="noopener noreferrer">
           <FaEnvelope size={24}/>
