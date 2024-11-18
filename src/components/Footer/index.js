@@ -40,14 +40,14 @@ const Footer = () => {
           <FaEnvelope size={24}/>
         </a>
         <a className="footer-icon-container"
-        href="https://drive.google.com/file/d/10vKtJcU_NunGKokjj7z0p54xbjt4dqFY/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Cg3R3Zr3BMQ_-J3CuJ-KJkIJ4lq6yWWQ/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer">
           <FaFile size={24}/>
         </a>
       </div>
       <div className="footer-name">
-        <p>Designed and developed by Temuuulen © {new Date().getFullYear()}</p>
+        <p>Designed and developed by Temuulen © {new Date().getFullYear()}</p>
       </div>
     </div>
   );
