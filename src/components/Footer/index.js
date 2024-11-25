@@ -40,7 +40,7 @@ const Footer = () => {
           <FaEnvelope size={24}/>
         </a>
         <a className="footer-icon-container"
-        href="https://drive.google.com/file/d/14L3_7b4djeI_12uIzRbSLlFNeRXLiNOZ/view?usp=sharing"
+        href="https://drive.google.com/file/d/1kD5RgoMrMjDZapv8GAR1aHGdSlmZMmGH/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer">
           <FaFile size={24}/>
