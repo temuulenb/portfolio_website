@@ -47,7 +47,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer-name">
-        <p>Designed and developed by Temuuulen © {new Date().getFullYear()}</p>
+        <p>Designed and developed by Temuulen © {new Date().getFullYear()}</p>
       </div>
     </div>
   );
