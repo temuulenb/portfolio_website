@@ -9,7 +9,7 @@ const Footer = () => {
     // smooth scolling
     const scroller = Scroll.scroller;
     scroller.scrollTo( className, {
-        duration: 1000,
+        duration: 100,
         delay: 0,
         smooth: 'easeInOutQuart'
     })
